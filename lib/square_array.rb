@@ -3,8 +3,10 @@ require 'pry'
 array = [1,2,3]
 
 def square_array(array)
-  counter = 0
+  count = 0
   new_array = []
-  while
+  while count < array.length do
+    new_array.push(array[counter] ** 2) 
+
 
 end
